@@ -10,14 +10,14 @@ class ButtonRow extends StatelessWidget {
         Expanded(
           child: ElevatedButton(
             onPressed: () {},
-            child: const Text("Actualizar"),
+            child: const Text("Boton 1"),
           ),
         ),
         const Spacer(),
         Expanded(
           child: ElevatedButton(
             onPressed: () {},
-            child: const Text("Descargar"),
+            child: const Text("Boton 2"),
           ),
         ),
       ],
